@@ -5,7 +5,10 @@
 
 function sorting_array($array, $sorting_type)
 {
-  if ($sorting_type == 0) {
+  $array = explode(' ', readline("Enter array values through spaces and hit Enter: "));
+  $sorting_type = readline("Choose sorting type: enter 'asc' for ascending, 'desc' for descending: ");
+
+  if ($sorting_type == 'asc') {
     for ($x = 0; $x < count($array) - 1; $x++) {
       for ($i = 0; $i < count($array) - $x - 1; $i++) {
         if ($array[$i] > $array[$i + 1]) {
@@ -15,8 +18,8 @@ function sorting_array($array, $sorting_type)
         }
       }
     }
-    print_r($array);
-  } elseif ($sorting_type == 1) {
+    return $array;
+  } elseif ($sorting_type == 'desc') {
     for ($x = 0; $x < count($array) - 1; $x++) {
       for ($i = 0; $i < count($array) - $x - 1; $i++) {
         if ($array[$i] < $array[$i + 1]) {
@@ -26,14 +29,8 @@ function sorting_array($array, $sorting_type)
         }
       }
     }
-    print_r($array);
+    return $array;
   } else {
-    echo ("You didn't enter valid number!");
+    echo ("You didn't enter valid option of sorting!");
   }
 }
-
-// спрашиваем у пользователя значения массива через пробел и метод сортировки 
-
-$array = explode(' ', readline("Enter array values through spaces and hit Enter: "));
-$sorting_type = readline("Choose sorting type: enter '0' for ascending, '1' for descending: ");
-sorting_array($array, $sorting_type);
