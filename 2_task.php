@@ -7,30 +7,24 @@ function sorting_array($array, $sorting_type)
 {
   $array = explode(' ', readline("Enter array values through spaces and hit Enter: "));
   $sorting_type = readline("Choose sorting type: enter 'asc' for ascending, 'desc' for descending: ");
-
-  if ($sorting_type == 'asc') {
-    for ($x = 0; $x < count($array) - 1; $x++) {
-      for ($i = 0; $i < count($array) - $x - 1; $i++) {
+  for ($x = 0; $x < count($array) - 1; $x++) {
+    for ($i = 0; $i < count($array) - $x - 1; $i++) {
+      if ($sorting_type == 'asc') {
         if ($array[$i] > $array[$i + 1]) {
           $tmp_var = $array[$i + 1];
           $array[$i + 1] = $array[$i];
           $array[$i] = $tmp_var;
         }
-      }
-    }
-    return $array;
-  } elseif ($sorting_type == 'desc') {
-    for ($x = 0; $x < count($array) - 1; $x++) {
-      for ($i = 0; $i < count($array) - $x - 1; $i++) {
+      } elseif ($sorting_type == 'desc') {
         if ($array[$i] < $array[$i + 1]) {
           $tmp_var = $array[$i + 1];
           $array[$i + 1] = $array[$i];
           $array[$i] = $tmp_var;
         }
+      } else {
+        break;
       }
     }
-    return $array;
-  } else {
-    echo ("You didn't enter valid option of sorting!");
   }
+  return $array;
 }
