@@ -8,7 +8,7 @@
 // Minutes ago: 69120 -->
 
 
-<h2>Date calculation program</h2>
+<h2>Time ago form</h2>
 <form action="" method="post">
   <!-- execute on this page -->
   Enter your date: <input type="datetime-local" name="userdate" value="<?php echo $_POST['userdate'] ?? ''; ?>"><br><br>
