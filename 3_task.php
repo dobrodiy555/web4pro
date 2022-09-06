@@ -8,11 +8,11 @@
 // Minutes ago: 69120 -->
 
 
-<h2>Time ago form</h2>
+<h2>Time Ago</h2>
+<!-- execute on this page -->
 <form action="" method="post">
-  <!-- execute on this page -->
-  Enter your date: <input type="datetime-local" name="userdate" value="<?php echo $_POST['userdate'] ?? ''; ?>"><br><br>
-  <!--сохранит дату после нажатия кнопки -->
+  <!--сохранит дату после нажатия кнопки, обязательно для заполнения -->
+  Enter your date: <input type="datetime-local" name="userdate" value="<?php echo $_POST['userdate'] ?? ''; ?>" required><br><br>
   <input type="submit" value="Calculate">
 </form>
 
