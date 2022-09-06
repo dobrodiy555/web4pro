@@ -11,12 +11,14 @@
 <h2>Time Ago</h2>
 <!-- execute on this page -->
 <form action="" method="post">
-  <!--сохранит дату после нажатия кнопки, обязательно для заполнения -->
+  <!--сохраняет дату после нажатия кнопки, делает форму обязательной для заполнения -->
   Enter your date: <input type="datetime-local" name="userdate" value="<?php echo $_POST['userdate'] ?? ''; ?>" required><br><br>
   <input type="submit" value="Calculate">
 </form>
 
 <?php
+
+date_default_timezone_set("Europe/Helsinki");  // set correct timezone
 
 if (isset($_POST['userdate'])) { // check if form was submitted
   $userdate = $_POST['userdate'];
@@ -25,7 +27,7 @@ if (isset($_POST['userdate'])) { // check if form was submitted
   if ($user_time_unix > $now) { // check that date entered by user is smaller than today's date
     echo "<span>Error: your date is bigger than now!</span>";
   } else {
-    $datediff = abs($now - $user_time_unix);
+    $datediff = $now - $user_time_unix;
     echo "<span>Years ago: </span>";
     echo floor($datediff / (365 * 60 * 60 * 24));
     echo "<br>";
