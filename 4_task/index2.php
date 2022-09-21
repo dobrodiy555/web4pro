@@ -22,7 +22,7 @@ if (!empty($arr['data'])) {  // проверить есть ли данные
 $total = count($arr); // сколько всего будет постов
 $total_pages = ceil($total / $limit); // всего страниц
 $posts = array_splice($arr, $offset, $limit);
-$i = 0;
+
 ?>
 
 <!DOCTYPE html>
@@ -78,23 +78,18 @@ $i = 0;
   <h1>Pagination page</h1>
 
   <?php foreach ($posts as $k => $v) : ?>
-    <table border='1' bgcolor=<?php if ($i % 2 != 0) {
-                                echo "yellowgreen";
-                              } ?>>
+    <table border='1' bgcolor='<?php echo $k % 2 != 0 ? "yellowgreen" : "white"; ?>'>
       <tr>
         <td><b>Title: </b><br> <?= $v['title'] ?> </td><br>
         <td><b>Author: </b><br> <?= $v['author'] ?> </td><br>
         <td><b>Content: </b><br> <?= $v['content'] ?> </td>
       </tr>
     </table>
-  <?php $i++;
-  endforeach; ?>
+  <?php endforeach; ?>
 
   <div class="pagination">
     <?php for ($i = 1; $i <= $total_pages; $i++) : ?>
-      <a class='page-link <?php if ($i == $page) {
-                            echo "active disabled";
-                          } ?>' href=?page=<?= $i ?>> <?= $i ?> </a>
+      <a class=' page-link <?php echo $i != $page ?: "active disabled"; ?>' href='index2.php?page=<?= $i; ?>'> <?= $i ?> </a>
     <?php endfor; ?>
   </div>
 
