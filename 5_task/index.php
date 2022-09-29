@@ -22,8 +22,9 @@ if (isset($_POST['Collection'])) {
 
   $collectionToExport = new $collection();
   $exportMechanizm = new $export();
-  $result = $exportMechanizm->transform_array($collectionToExport);
+  $resultOfExport = $exportMechanizm->transform_array($collectionToExport);
 }
+
 
 ?>
 
@@ -52,7 +53,7 @@ if (isset($_POST['Collection'])) {
     <br>
     <div>
 
-      <span><?= print_r($result) ?></span>
+      <span><?= var_dump($resultOfExport) ?></span>
 
     </div>
   </form>

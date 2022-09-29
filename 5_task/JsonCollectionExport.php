@@ -3,9 +3,8 @@
 class JsonCollectionExport extends CollectionExport
 {
 
-  public function transform_into_json($result)
+  public function transform_into_json(Collection $arr)
   {
-    $result = json_encode($result);
-    return $result;
+    return json_encode(parent::transform_array($arr));
   }
 }

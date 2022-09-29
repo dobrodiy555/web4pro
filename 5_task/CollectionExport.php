@@ -1,10 +1,9 @@
 <?php
 
-class CollectionExport extends Collection
+class CollectionExport
 {
-  function transform_array($arr)
+  function transform_array(Collection $arr)
   {
-    $result = $arr->getItems();
-    return $result;
+    return $arr->getItems();
   }
 }
