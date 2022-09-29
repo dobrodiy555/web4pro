@@ -2,7 +2,7 @@
 
 class CollectionExport
 {
-  function transform_array(Collection $arr)
+  function transform_array($arr)
   {
     return $arr->getItems();
   }

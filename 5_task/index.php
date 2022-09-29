@@ -9,22 +9,20 @@ require "JsonCollectionExport.php";
 require "CsvCollectionExport.php";
 
 $resultOfExport = "";
-$collection = "";
-
+$collection = ""; // чтоб не ругалось что нет переменных при первом запуске страницы
 
 if (isset($_POST['Collection'])) {
   if (!empty($_POST['Collection'])) {
     $collection = $_POST['Collection'];
   }
   if (!empty($_POST['TypeExport'])) {
-    $export = $_POST['TypeExport'];
+    $export = $_POST['TypeExport'];   // присваиваем значение переменных из value методом post если value не пусто
   }
 
-  $collectionToExport = new $collection();
-  $exportMechanizm = new $export();
-  $resultOfExport = $exportMechanizm->transform_array($collectionToExport);
+  $collectionToExport = new $collection(); // создаем обьект класса PlacesCollection, ProductsCollection или UsersCollection
+  $exportMechanizm = new $export(); // создаем обьект класса CsvCollectionExport или JsonCollectionExport
+  $resultOfExport = $exportMechanizm->transform_array($collectionToExport); // вызываем метод transform_array родительского класса
 }
-
 
 ?>
 
@@ -41,9 +39,9 @@ if (isset($_POST['Collection'])) {
 <body>
   <form action="" method="post">
     <select name="Collection">
-      <option value="UsersCollection" <?php echo ($collection == "UsersCollection") ? "selected" : ""; ?>>UsersCollection</option>
-      <option value="ProductsCollection" <?php echo ($collection == "ProductsCollection") ? "selected" : ""; ?>>ProductsCollection</option>
-      <option value="PlacesCollection" <?php echo ($collection == "PlacesCollection") ? "selected" : ""; ?>>PlacesCollection</option>
+      <option value="UsersCollection" <?= ($collection == "UsersCollection") ? "selected" : ""; ?>>UsersCollection</option>
+      <option value="ProductsCollection" <?= ($collection == "ProductsCollection") ? "selected" : ""; ?>>ProductsCollection</option>
+      <option value="PlacesCollection" <?= ($collection == "PlacesCollection") ? "selected" : ""; ?>>PlacesCollection</option>
     </select>
     <br><br>
     <div>
@@ -53,7 +51,7 @@ if (isset($_POST['Collection'])) {
     <br>
     <div>
 
-      <span><?= var_dump($resultOfExport) ?></span>
+      <span><?= $resultOfExport ?></span>
 
     </div>
   </form>

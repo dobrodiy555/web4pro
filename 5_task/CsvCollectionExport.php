@@ -2,26 +2,22 @@
 
 class CsvCollectionExport extends CollectionExport
 {
-  public function printCsv($result)
+  public function implode_into_csv($arr)
   {
-    $f = fopen('persons.csv', 'a');
-    foreach ($result['data'] as $fields) {
-      fputcsv($f, $fields);
-    }
-    fclose($f);
-
-    // Fetching data from csv file row by row
-
-    echo "<html><body><center><table>\n\n";
-    $file = fopen('persons.csv', 'r');
-    while (($data = fgetcsv($file)) !== false) {
-      // HTML tag for placing in row format
-      echo "<tr>";
-      foreach ($data as $i) {
-        echo "<td>" . htmlspecialchars($i)
-          . "</td>";
+    $out = "";
+    $header = false;
+    foreach ($arr as $arrays) {
+      if (!$header) {
+        $out .= implode(",", array_keys($arrays)) . "<br>"; // выводим заголовки
+        $header = true;
       }
-      echo "</tr> \n";
+      $out .= implode(",", $arrays) . "<br>";
     }
+    return $out;
+  }
+
+  public function transform_array($arr)
+  {
+    return $this->implode_into_csv(parent::transform_array($arr));
   }
 }
