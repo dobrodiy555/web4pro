@@ -1,0 +1,1497 @@
+
+[06-Oct-2022 12:46:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function test_input() in D:\xampp\htdocs\web4pro_project\registration_form\index.php:14
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\web4pro_project\registration_form\index.php on line 14
+[06-Oct-2022 12:47:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function test_input() in D:\xampp\htdocs\web4pro_project\registration_form\index.php:14
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\web4pro_project\registration_form\index.php on line 14
+[06-Oct-2022 12:52:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function test_input() in D:\xampp\htdocs\web4pro_project\registration_form\index.php:14
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\web4pro_project\registration_form\index.php on line 14
+[06-Oct-2022 12:53:51 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function test_input() in D:\xampp\htdocs\web4pro_project\registration_form\index.php:14
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\web4pro_project\registration_form\index.php on line 14
+User typed invalid email formatUser typed invalid format of passwordUser left confirmation password field blankUser typed invalid email formatUser typed invalid format of passwordUser left confirmation password field blankUser typed invalid email formatUser typed invalid format of passwordUser typed wrong password in Confirm password fieldUser left confirmation password field blankUser left password field blankUser left confirmation password field blankUser left name field blank
+User left password field blankUser left confirmation password field blankUser left name field blank
+User left password field blankUser left confirmation password field blankUser left name field blank
+User left surname field blankUser left password field blank
+User left confirmation password field blank
+User left name field blank
+User left surname field blankUser left password field blank
+User left confirmation password field blank
+User left name field blank
+User left surname field blankUser left password field blank
+User left confirmation password field blank
+User left name field blank
+User left surname field blankUser left password field blank
+User left confirmation password field blank
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User left password field blank
+User left confirmation password field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User typed wrong password in Confirm password field
+User didn't use latin or cyrillic letters and whitespace for name
+User typed wrong password in Confirm password field
+User didn't use latin or cyrillic letters and whitespace for name
+User typed invalid email format
+User typed wrong password in Confirm password field
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User didn't use latin or cyrillic letters and whitespace for name
+User left name field blank
+User left name field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left name field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User didn't use latin or cyrillic letters and whitespace for name
+User left name field blank
+User left name field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left some fields blank
+User left some fields blank
+User didn't use latin or cyrillic letters and whitespace for name
+User typed invalid email format
+User typed invalid email format
+User typed invalid email format
+User left some fields blank
+User left some fields blank
+User didn't use latin or cyrillic letters and whitespace for name
+User typed invalid format of password
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User left some fields blank
+User left some fields blank
+User left some fields blank
+[07-Oct-2022 13:03:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function test_input() in D:\xampp\htdocs\web4pro_project\registration_form\index1.php:25
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 25
+User left password field blank
+User left confirmation password field blank
+User left password field blank
+User left confirmation password field blank
+[07-Oct-2022 13:27:41 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 8
+[07-Oct-2022 13:27:41 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 13:27:41 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 13:27:41 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 8
+[07-Oct-2022 13:27:41 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 13:27:41 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 13:27:41 Europe/Berlin] PHP Warning:  Undefined variable $name_validation in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 95
+[07-Oct-2022 13:27:41 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 13:27:41 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 13:28:45 Europe/Berlin] PHP Warning:  Undefined variable $name_validation in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 96
+[07-Oct-2022 13:28:45 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 13:28:45 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[07-Oct-2022 13:29:34 Europe/Berlin] PHP Warning:  Undefined variable $email_validation in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 96
+[07-Oct-2022 13:29:34 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 13:29:34 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User left password field blank
+User left confirmation password field blank
+[07-Oct-2022 13:29:42 Europe/Berlin] PHP Warning:  Undefined variable $password_validation in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 96
+[07-Oct-2022 13:29:42 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 13:29:42 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User left password field blank
+User left confirmation password field blank
+[07-Oct-2022 13:30:11 Europe/Berlin] PHP Warning:  Undefined variable $password_validation in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 96
+[07-Oct-2022 13:30:11 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 13:30:11 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User left password field blank
+User left confirmation password field blank
+[07-Oct-2022 13:30:26 Europe/Berlin] PHP Warning:  Undefined variable $password_validation in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 96
+[07-Oct-2022 13:30:26 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 13:30:26 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User typed invalid format of password
+[07-Oct-2022 13:30:32 Europe/Berlin] PHP Warning:  Undefined variable $password_validation in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 96
+[07-Oct-2022 13:30:32 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 13:30:32 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User left surname field blank
+User typed invalid format of password
+[07-Oct-2022 13:30:39 Europe/Berlin] PHP Warning:  Undefined variable $surname_validation in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 96
+[07-Oct-2022 13:30:39 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 13:30:39 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User left surname field blank
+User typed invalid format of password
+[07-Oct-2022 13:31:13 Europe/Berlin] PHP Warning:  Undefined variable $surname_validation in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 97
+[07-Oct-2022 13:31:13 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 13:31:13 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User left surname field blank
+User typed invalid format of password
+[07-Oct-2022 13:31:57 Europe/Berlin] PHP Warning:  Undefined variable $surname_validation in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 98
+[07-Oct-2022 13:31:57 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 13:31:57 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User left surname field blank
+User typed invalid format of password
+User typed invalid format of password
+User left password field blank
+User left confirmation password field blank
+User typed invalid format of password
+User left name field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[07-Oct-2022 14:22:23 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 8
+[07-Oct-2022 14:22:23 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:22:23 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:22:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 8
+[07-Oct-2022 14:22:23 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:22:23 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:22:52 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 6
+[07-Oct-2022 14:22:52 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:22:52 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:22:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 6
+[07-Oct-2022 14:22:52 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:22:52 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:22:52 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 8
+[07-Oct-2022 14:22:52 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:22:52 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:22:52 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 8
+[07-Oct-2022 14:22:52 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:22:52 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:22:52 Europe/Berlin] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 15
+[07-Oct-2022 14:22:52 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:22:52 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:22:52 Europe/Berlin] PHP   2. session_start() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:15
+[07-Oct-2022 14:23:19 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 8
+[07-Oct-2022 14:23:19 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:23:19 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:23:19 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 8
+[07-Oct-2022 14:23:19 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:23:19 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:23:44 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 8
+[07-Oct-2022 14:23:44 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:23:44 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:23:44 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 8
+[07-Oct-2022 14:23:44 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:23:44 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[07-Oct-2022 14:23:53 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 8
+[07-Oct-2022 14:23:53 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:23:53 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:23:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 8
+[07-Oct-2022 14:23:53 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:23:53 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User typed invalid email format
+User left password field blank
+User left confirmation password field blank
+[07-Oct-2022 14:24:11 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 8
+[07-Oct-2022 14:24:11 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:24:11 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:24:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 8
+[07-Oct-2022 14:24:11 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:24:11 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:24:23 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 8
+[07-Oct-2022 14:24:23 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:24:23 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:24:23 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 8
+[07-Oct-2022 14:24:23 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:24:23 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:24:51 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 6
+[07-Oct-2022 14:24:51 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:24:51 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:24:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 6
+[07-Oct-2022 14:24:51 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:24:51 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:24:51 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 8
+[07-Oct-2022 14:24:51 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:24:51 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:24:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 8
+[07-Oct-2022 14:24:51 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:24:51 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:24:51 Europe/Berlin] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 15
+[07-Oct-2022 14:24:51 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:24:51 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:24:51 Europe/Berlin] PHP   2. session_start() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:15
+[07-Oct-2022 14:25:25 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 6
+[07-Oct-2022 14:25:25 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:25:25 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:25:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 6
+[07-Oct-2022 14:25:25 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:25:25 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:25:25 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 8
+[07-Oct-2022 14:25:25 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:25:25 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:25:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 8
+[07-Oct-2022 14:25:25 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:25:25 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:25:25 Europe/Berlin] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 14
+[07-Oct-2022 14:25:25 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:25:25 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:25:25 Europe/Berlin] PHP   2. session_start() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:14
+[07-Oct-2022 14:25:37 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 6
+[07-Oct-2022 14:25:37 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:25:37 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:25:37 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 6
+[07-Oct-2022 14:25:37 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:25:37 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:25:37 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 8
+[07-Oct-2022 14:25:37 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:25:37 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:25:37 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 8
+[07-Oct-2022 14:25:37 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:25:37 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:25:37 Europe/Berlin] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 14
+[07-Oct-2022 14:25:37 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:25:37 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:25:37 Europe/Berlin] PHP   2. session_start() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:14
+[07-Oct-2022 14:30:58 Europe/Berlin] PHP Warning:  Undefined array key "registration" in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 8
+[07-Oct-2022 14:30:58 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:30:58 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:30:58 Europe/Berlin] PHP Warning:  Undefined array key "registration" in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 10
+[07-Oct-2022 14:30:58 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:30:58 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 14:32:31 Europe/Berlin] PHP Warning:  Undefined array key "registration" in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 8
+[07-Oct-2022 14:32:31 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:32:31 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User left surname field blank
+User typed invalid email format
+[07-Oct-2022 14:35:09 Europe/Berlin] PHP Warning:  Undefined array key "registration" in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 8
+[07-Oct-2022 14:35:09 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 14:35:09 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+[07-Oct-2022 15:48:36 Europe/Berlin] PHP Warning:  Undefined variable $errors in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 108
+[07-Oct-2022 15:48:36 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 15:48:36 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 15:49:18 Europe/Berlin] PHP Warning:  Undefined variable $errors in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 114
+[07-Oct-2022 15:49:18 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 15:49:18 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 15:49:54 Europe/Berlin] PHP Warning:  Undefined variable $errors in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 108
+[07-Oct-2022 15:49:54 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 15:49:54 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User typed invalid email format
+User left password field blank
+User left confirmation password field blank
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+[07-Oct-2022 15:51:24 Europe/Berlin] PHP Warning:  Undefined variable $errors in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 112
+[07-Oct-2022 15:51:24 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 15:51:24 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User left name field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[07-Oct-2022 15:51:32 Europe/Berlin] PHP Warning:  Undefined variable $errors in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 112
+[07-Oct-2022 15:51:32 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 15:51:32 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[07-Oct-2022 15:51:39 Europe/Berlin] PHP Warning:  Undefined variable $errors in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 112
+[07-Oct-2022 15:51:39 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 15:51:39 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[07-Oct-2022 15:51:41 Europe/Berlin] PHP Warning:  Undefined variable $errors in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 112
+[07-Oct-2022 15:51:41 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 15:51:41 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+[07-Oct-2022 15:52:15 Europe/Berlin] PHP Warning:  Undefined variable $errors in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 127
+[07-Oct-2022 15:52:15 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 15:52:15 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[07-Oct-2022 15:52:19 Europe/Berlin] PHP Warning:  Undefined variable $errors in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 127
+[07-Oct-2022 15:52:19 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 15:52:19 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User typed invalid email format
+User left password field blank
+User typed wrong password in Confirm password field
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User didn't use latin or cyrillic letters and whitespace for name
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User didn't use latin or cyrillic letters and whitespace for name
+User didn't use latin or cyrillic letters and whitespace for surname
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User didn't use latin or cyrillic letters and whitespace for name
+User didn't use latin or cyrillic letters and whitespace for surname
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User didn't use latin or cyrillic letters and whitespace for name
+User didn't use latin or cyrillic letters and whitespace for surname
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+[07-Oct-2022 15:55:40 Europe/Berlin] PHP Warning:  Undefined variable $errors in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 127
+[07-Oct-2022 15:55:40 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 15:55:40 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User didn't use latin or cyrillic letters and whitespace for name
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+[07-Oct-2022 15:56:16 Europe/Berlin] PHP Warning:  Undefined variable $errors in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 127
+[07-Oct-2022 15:56:16 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 15:56:16 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User didn't use latin or cyrillic letters and whitespace for name
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+[07-Oct-2022 15:57:59 Europe/Berlin] PHP Warning:  Undefined variable $errors in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 127
+[07-Oct-2022 15:57:59 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 15:57:59 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[07-Oct-2022 15:59:35 Europe/Berlin] PHP Warning:  Undefined variable $errors in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 128
+[07-Oct-2022 15:59:35 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 15:59:35 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[07-Oct-2022 15:59:49 Europe/Berlin] PHP Warning:  Undefined variable $errors in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 128
+[07-Oct-2022 15:59:49 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 15:59:49 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User left password field blank
+User left confirmation password field blank
+User typed invalid format of password
+User left confirmation password field blank
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User didn't use latin or cyrillic letters and whitespace for surname
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User didn't use latin or cyrillic letters and whitespace for name
+User didn't use latin or cyrillic letters and whitespace for surname
+User typed invalid format of password
+User typed wrong password in Confirm password field
+[07-Oct-2022 16:01:09 Europe/Berlin] PHP Warning:  Undefined variable $errors in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 128
+[07-Oct-2022 16:01:09 Europe/Berlin] PHP Stack trace:
+[07-Oct-2022 16:01:09 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User typed invalid email format
+User left password field blank
+User left confirmation password field blank
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User didn't use latin or cyrillic letters and whitespace for surname
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+[11-Oct-2022 08:31:49 Europe/Berlin] PHP Warning:  Undefined array key "registration" in D:\xampp\htdocs\web4pro_project\registration_form\pol2.php on line 10
+[11-Oct-2022 08:31:49 Europe/Berlin] PHP Stack trace:
+[11-Oct-2022 08:31:49 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\pol2.php:0
+User typed invalid email format
+User typed invalid format of password
+[11-Oct-2022 08:33:51 Europe/Berlin] PHP Warning:  Undefined variable $errors in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 128
+[11-Oct-2022 08:33:51 Europe/Berlin] PHP Stack trace:
+[11-Oct-2022 08:33:51 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index1.php:0
+User typed invalid email format
+User left password field blank
+User left confirmation password field blank
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User left name field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for surname
+User typed invalid email format
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for surname
+User typed invalid email format
+User left password field blank
+User left confirmation password field blank
+User typed invalid email format
+User typed invalid format of password
+User didn't use latin or cyrillic letters and whitespace for name
+User didn't use latin or cyrillic letters and whitespace for surname
+User typed invalid email format
+User typed invalid format of password
+User typed invalid email format
+User typed invalid format of password
+User didn't use latin or cyrillic letters and whitespace for surname
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left name field blank
+[11-Oct-2022 11:02:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function countErrors() in D:\xampp\htdocs\web4pro_project\registration_form\index1.php:31
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\web4pro_project\registration_form\index1.php on line 31
+User left name field blank
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for surname
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for surname
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for surname
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User didn't use latin or cyrillic letters and whitespace for surname
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User didn't use latin or cyrillic letters and whitespace for surname
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for surname
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for surname
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User didn't use latin or cyrillic letters and whitespace for surname
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User didn't use latin or cyrillic letters and whitespace for surname
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User typed invalid email format
+User typed invalid format of password
+User left confirmation password field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User typed invalid email format
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User typed invalid email format
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for surname
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for surname
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User didn't use latin or cyrillic letters and whitespace for surname
+User typed invalid email format
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User didn't use latin or cyrillic letters and whitespace for surname
+User typed invalid email format
+User left password field blank
+User left confirmation password field blank
+User typed invalid format of password
+User typed invalid format of password
+User didn't use latin or cyrillic letters and whitespace for surname
+User typed invalid email format
+User typed invalid format of password
+User didn't use latin or cyrillic letters and whitespace for surname
+User typed invalid email format
+User typed invalid format of password
+User didn't use latin or cyrillic letters and whitespace for name
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[11-Oct-2022 14:18:10 Europe/Berlin] PHP Warning:  Undefined array key "counter" in D:\xampp\htdocs\web4pro_project\registration_form\index2.php on line 144
+[11-Oct-2022 14:18:10 Europe/Berlin] PHP Stack trace:
+[11-Oct-2022 14:18:10 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index2.php:0
+[11-Oct-2022 14:18:10 Europe/Berlin] PHP Warning:  Undefined array key "counter" in D:\xampp\htdocs\web4pro_project\registration_form\index2.php on line 165
+[11-Oct-2022 14:18:10 Europe/Berlin] PHP Stack trace:
+[11-Oct-2022 14:18:10 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index2.php:0
+[11-Oct-2022 14:18:10 Europe/Berlin] PHP Warning:  Undefined array key "counter" in D:\xampp\htdocs\web4pro_project\registration_form\index2.php on line 166
+[11-Oct-2022 14:18:10 Europe/Berlin] PHP Stack trace:
+[11-Oct-2022 14:18:10 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index2.php:0
+[11-Oct-2022 14:19:10 Europe/Berlin] PHP Warning:  Undefined array key "counter" in D:\xampp\htdocs\web4pro_project\registration_form\index2.php on line 144
+[11-Oct-2022 14:19:10 Europe/Berlin] PHP Stack trace:
+[11-Oct-2022 14:19:10 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index2.php:0
+[11-Oct-2022 14:19:10 Europe/Berlin] PHP Warning:  Undefined array key "counter" in D:\xampp\htdocs\web4pro_project\registration_form\index2.php on line 165
+[11-Oct-2022 14:19:10 Europe/Berlin] PHP Stack trace:
+[11-Oct-2022 14:19:10 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index2.php:0
+[11-Oct-2022 14:19:10 Europe/Berlin] PHP Warning:  Undefined array key "counter" in D:\xampp\htdocs\web4pro_project\registration_form\index2.php on line 166
+[11-Oct-2022 14:19:10 Europe/Berlin] PHP Stack trace:
+[11-Oct-2022 14:19:10 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index2.php:0
+[11-Oct-2022 14:20:10 Europe/Berlin] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web4pro_project\registration_form\index2.php on line 27
+[11-Oct-2022 14:20:10 Europe/Berlin] PHP Stack trace:
+[11-Oct-2022 14:20:10 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index2.php:0
+User didn't use latin or cyrillic letters and whitespace for name
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User didn't use latin or cyrillic letters and whitespace for surname
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User didn't use latin or cyrillic letters and whitespace for surname
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[11-Oct-2022 14:22:49 Europe/Berlin] PHP Warning:  Undefined array key "counter" in D:\xampp\htdocs\web4pro_project\registration_form\index2.php on line 144
+[11-Oct-2022 14:22:49 Europe/Berlin] PHP Stack trace:
+[11-Oct-2022 14:22:49 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index2.php:0
+[11-Oct-2022 14:22:49 Europe/Berlin] PHP Warning:  Undefined array key "counter" in D:\xampp\htdocs\web4pro_project\registration_form\index2.php on line 165
+[11-Oct-2022 14:22:49 Europe/Berlin] PHP Stack trace:
+[11-Oct-2022 14:22:49 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index2.php:0
+[11-Oct-2022 14:22:49 Europe/Berlin] PHP Warning:  Undefined array key "counter" in D:\xampp\htdocs\web4pro_project\registration_form\index2.php on line 166
+[11-Oct-2022 14:22:49 Europe/Berlin] PHP Stack trace:
+[11-Oct-2022 14:22:49 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index2.php:0
+User didn't use latin or cyrillic letters and whitespace for name
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[11-Oct-2022 14:23:13 Europe/Berlin] PHP Warning:  Undefined array key "counter" in D:\xampp\htdocs\web4pro_project\registration_form\index2.php on line 144
+[11-Oct-2022 14:23:13 Europe/Berlin] PHP Stack trace:
+[11-Oct-2022 14:23:13 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index2.php:0
+[11-Oct-2022 14:23:13 Europe/Berlin] PHP Warning:  Undefined array key "counter" in D:\xampp\htdocs\web4pro_project\registration_form\index2.php on line 165
+[11-Oct-2022 14:23:13 Europe/Berlin] PHP Stack trace:
+[11-Oct-2022 14:23:13 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index2.php:0
+[11-Oct-2022 14:23:13 Europe/Berlin] PHP Warning:  Undefined array key "counter" in D:\xampp\htdocs\web4pro_project\registration_form\index2.php on line 166
+[11-Oct-2022 14:23:13 Europe/Berlin] PHP Stack trace:
+[11-Oct-2022 14:23:13 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index2.php:0
+[11-Oct-2022 14:23:49 Europe/Berlin] PHP Warning:  Undefined array key "counter" in D:\xampp\htdocs\web4pro_project\registration_form\index2.php on line 144
+[11-Oct-2022 14:23:49 Europe/Berlin] PHP Stack trace:
+[11-Oct-2022 14:23:49 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index2.php:0
+[11-Oct-2022 14:23:49 Europe/Berlin] PHP Warning:  Undefined array key "counter" in D:\xampp\htdocs\web4pro_project\registration_form\index2.php on line 165
+[11-Oct-2022 14:23:49 Europe/Berlin] PHP Stack trace:
+[11-Oct-2022 14:23:49 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index2.php:0
+[11-Oct-2022 14:23:49 Europe/Berlin] PHP Warning:  Undefined array key "counter" in D:\xampp\htdocs\web4pro_project\registration_form\index2.php on line 166
+[11-Oct-2022 14:23:49 Europe/Berlin] PHP Stack trace:
+[11-Oct-2022 14:23:49 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index2.php:0
+User didn't use latin or cyrillic letters and whitespace for name
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[11-Oct-2022 14:24:49 Europe/Berlin] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web4pro_project\registration_form\index2.php on line 27
+[11-Oct-2022 14:24:49 Europe/Berlin] PHP Stack trace:
+[11-Oct-2022 14:24:49 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index2.php:0
+[11-Oct-2022 14:24:56 Europe/Berlin] PHP Warning:  Undefined array key "counter" in D:\xampp\htdocs\web4pro_project\registration_form\index2.php on line 144
+[11-Oct-2022 14:24:56 Europe/Berlin] PHP Stack trace:
+[11-Oct-2022 14:24:56 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index2.php:0
+[11-Oct-2022 14:24:56 Europe/Berlin] PHP Warning:  Undefined array key "counter" in D:\xampp\htdocs\web4pro_project\registration_form\index2.php on line 165
+[11-Oct-2022 14:24:56 Europe/Berlin] PHP Stack trace:
+[11-Oct-2022 14:24:56 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index2.php:0
+[11-Oct-2022 14:24:56 Europe/Berlin] PHP Warning:  Undefined array key "counter" in D:\xampp\htdocs\web4pro_project\registration_form\index2.php on line 166
+[11-Oct-2022 14:24:56 Europe/Berlin] PHP Stack trace:
+[11-Oct-2022 14:24:56 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index2.php:0
+User left name field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[11-Oct-2022 16:17:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function in_array_r() in D:\xampp\htdocs\web4pro_project\registration_form\index2.php:72
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\web4pro_project\registration_form\index2.php on line 72
+[11-Oct-2022 16:18:50 Europe/Berlin] User typed already registered email
+
+[11-Oct-2022 16:20:27 Europe/Berlin] User typed already registered email
+
+User didn't use latin or cyrillic letters and whitespace for name
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[11-Oct-2022 18:03:57 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in D:\xampp\htdocs\web4pro_project\registration_form\index2.php on line 41
+[11-Oct-2022 18:03:57 Europe/Berlin] PHP Stack trace:
+[11-Oct-2022 18:03:57 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index2.php:0
+[11-Oct-2022 18:03:57 Europe/Berlin] PHP   2. session_start() D:\xampp\htdocs\web4pro_project\registration_form\index2.php:41
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[11-Oct-2022 18:16:31 Europe/Berlin] User typed already registered email
+
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[11-Oct-2022 18:20:40 Europe/Berlin] User typed already registered email
+
+User typed invalid format of password
+User typed wrong password in Confirm password field
+[11-Oct-2022 18:22:14 Europe/Berlin] PHP Warning:  Undefined variable $cookie_name in D:\xampp\htdocs\web4pro_project\registration_form\index2.php on line 37
+[11-Oct-2022 18:22:14 Europe/Berlin] PHP Stack trace:
+[11-Oct-2022 18:22:14 Europe/Berlin] PHP   1. {main}() D:\xampp\htdocs\web4pro_project\registration_form\index2.php:0
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[11-Oct-2022 18:24:35 Europe/Berlin] User typed already registered email
+
+User left password field blank
+User left confirmation password field blank
+[11-Oct-2022 18:24:38 Europe/Berlin] User typed already registered email
+
+User left password field blank
+User left confirmation password field blank
+[11-Oct-2022 18:25:31 Europe/Berlin] User typed already registered email
+
+[11-Oct-2022 18:29:08 Europe/Berlin] User typed already registered email
+
+User didn't use latin or cyrillic letters and whitespace for name
+User didn't use latin or cyrillic letters and whitespace for surname
+[12-Oct-2022 09:32:17 Europe/Berlin] User typed already registered email
+
+User typed invalid format of password
+User didn't use latin or cyrillic letters and whitespace for name
+[12-Oct-2022 09:32:31 Europe/Berlin] User typed already registered email
+
+User typed invalid format of password
+[12-Oct-2022 09:33:58 Europe/Berlin] User typed already registered email
+
+User typed wrong password in Confirm password field
+User typed wrong password in Confirm password field
+User left name field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[12-Oct-2022 10:47:59 Europe/Berlin] User typed already registered email
+
+User typed invalid format of password
+[12-Oct-2022 10:48:51 Europe/Berlin] User typed already registered email
+
+User typed invalid format of password
+[12-Oct-2022 10:53:28 Europe/Berlin] User typed already registered email
+
+User typed invalid format of password
+User typed wrong password in Confirm password field
+[12-Oct-2022 10:54:50 Europe/Berlin] User typed already registered email
+
+User typed invalid format of password
+[12-Oct-2022 11:02:01 Europe/Berlin] User typed already registered email
+
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[12-Oct-2022 11:07:53 Europe/Berlin] User typed already registered email
+
+[12-Oct-2022 11:08:37 Europe/Berlin] User typed already registered email
+
+[12-Oct-2022 11:08:41 Europe/Berlin] User typed already registered email
+
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[12-Oct-2022 11:10:48 Europe/Berlin] User typed already registered email
+
+User didn't use latin or cyrillic letters and whitespace for name
+[13-Oct-2022 16:19:45 Europe/Berlin] User typed already registered email
+
+User typed invalid format of password
+[13-Oct-2022 16:20:17 Europe/Berlin] User typed already registered email
+
+User typed wrong password in Confirm password field
+User didn't use latin or cyrillic letters and whitespace for surname
+[13-Oct-2022 16:22:08 Europe/Berlin] User typed already registered email
+
+User typed invalid format of password
+User typed wrong password in Confirm password field
+[13-Oct-2022 16:22:20 Europe/Berlin] User typed already registered email
+
+User typed invalid format of password
+User typed wrong password in Confirm password field
+[13-Oct-2022 16:25:04 Europe/Berlin] User typed already registered email
+
+[13-Oct-2022 16:25:07 Europe/Berlin] User typed already registered email
+
+[13-Oct-2022 16:27:08 Europe/Berlin] User typed already registered email
+
+[13-Oct-2022 16:27:09 Europe/Berlin] User typed already registered email
+
+[13-Oct-2022 16:30:30 Europe/Berlin] User typed already registered email
+
+[13-Oct-2022 16:30:31 Europe/Berlin] User typed already registered email
+
+[13-Oct-2022 16:30:32 Europe/Berlin] User typed already registered email
+
+[13-Oct-2022 16:35:45 Europe/Berlin] User typed already registered email
+
+[13-Oct-2022 16:35:46 Europe/Berlin] User typed already registered email
+
+[13-Oct-2022 16:39:30 Europe/Berlin] User typed already registered email
+
+[13-Oct-2022 16:39:31 Europe/Berlin] User typed already registered email
+
+[13-Oct-2022 16:46:34 Europe/Berlin] User typed already registered email
+
+[13-Oct-2022 16:46:34 Europe/Berlin] User typed already registered email
+
+User typed invalid email format
+User didn't use latin or cyrillic letters and whitespace for name
+User didn't use latin or cyrillic letters and whitespace for surname
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User didn't use latin or cyrillic letters and whitespace for name
+User didn't use latin or cyrillic letters and whitespace for surname
+User typed invalid email format
+User typed wrong password in Confirm password field
+User left name field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left name field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[14-Oct-2022 08:12:42 Europe/Berlin] User typed already registered email
+
+User typed invalid format of password
+User left confirmation password field blank
+User typed invalid format of password
+[14-Oct-2022 08:13:06 Europe/Berlin] User typed already registered email
+
+User typed invalid format of password
+User left confirmation password field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[14-Oct-2022 08:13:54 Europe/Berlin] User typed already registered email
+
+[14-Oct-2022 08:13:55 Europe/Berlin] User typed already registered email
+
+[14-Oct-2022 08:14:44 Europe/Berlin] User typed already registered email
+
+[14-Oct-2022 08:14:45 Europe/Berlin] User typed already registered email
+
+[14-Oct-2022 08:15:11 Europe/Berlin] User typed already registered email
+
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[14-Oct-2022 08:40:57 Europe/Berlin] User typed already registered email
+
+[14-Oct-2022 08:41:00 Europe/Berlin] User typed already registered email
+
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for surname
+[14-Oct-2022 08:55:08 Europe/Berlin] User typed already registered email
+
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User didn't use latin or cyrillic letters and whitespace for surname
+[14-Oct-2022 08:55:10 Europe/Berlin] User typed already registered email
+
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User didn't use latin or cyrillic letters and whitespace for surname
+[14-Oct-2022 08:55:11 Europe/Berlin] User typed already registered email
+
+User typed invalid format of password
+User typed wrong password in Confirm password field
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[14-Oct-2022 08:57:54 Europe/Berlin] User typed already registered email
+
+[14-Oct-2022 08:57:57 Europe/Berlin] User typed already registered email
+
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[14-Oct-2022 08:58:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "validation" in D:\xampp\htdocs\web4pro_project\registration_form\index4.php:113
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\web4pro_project\registration_form\index4.php on line 113
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[14-Oct-2022 09:00:40 Europe/Berlin] User typed already registered email
+
+[14-Oct-2022 09:00:41 Europe/Berlin] User typed already registered email
+
+User left name field blank
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User didn't use latin or cyrillic letters and whitespace for name
+[14-Oct-2022 09:04:56 Europe/Berlin] User typed already registered email
+
+User didn't use latin or cyrillic letters and whitespace for name
+[14-Oct-2022 09:05:01 Europe/Berlin] User typed already registered email
+
+[14-Oct-2022 09:07:02 Europe/Berlin] User typed already registered email
+
+[14-Oct-2022 09:07:05 Europe/Berlin] User typed already registered email
+
+User left surname field blank
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[14-Oct-2022 09:13:34 Europe/Berlin] User typed already registered email
+
+[14-Oct-2022 09:14:14 Europe/Berlin] User typed already registered email
+
+[14-Oct-2022 09:14:16 Europe/Berlin] User typed already registered email
+
+[14-Oct-2022 09:16:28 Europe/Berlin] User typed already registered email
+
+[14-Oct-2022 09:16:29 Europe/Berlin] User typed already registered email
+
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+User typed invalid email format
+User left password field blank
+User left confirmation password field blank
+User typed invalid email format
+User typed invalid format of password
+User typed wrong password in Confirm password field
+[14-Oct-2022 09:18:24 Europe/Berlin] User typed already registered email
+
+[14-Oct-2022 09:18:25 Europe/Berlin] User typed already registered email
+
+[14-Oct-2022 09:24:21 Europe/Berlin] User typed already registered email
+
+User left email field blank
+User left password field blank
+User left confirmation password field blank
+[14-Oct-2022 09:24:42 Europe/Berlin] User typed already registered email
+
+[14-Oct-2022 09:25:15 Europe/Berlin] User typed already registered email
+
+User left password field blank
+User left confirmation password field blank
+[14-Oct-2022 09:25:19 Europe/Berlin] User typed already registered email
+
+[14-Oct-2022 09:25:21 Europe/Berlin] User typed already registered email
+
+[14-Oct-2022 09:25:55 Europe/Berlin] User typed already registered email
+
+[14-Oct-2022 09:25:56 Europe/Berlin] User typed already registered email
+
