@@ -174,3 +174,5 @@ JOIN user u ON u.id=tb.user_id where (curdate() - tb.take_date) > 7 AND return_d
 show_result_of_select_query_on_dates($conn1, $sql15);
 check_success_of_query($conn1, $sql15);
 
+mysqli_close($conn1);
+
