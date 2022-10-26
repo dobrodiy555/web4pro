@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^images/image-N.png$ images/image-123.php [NC]
+RewriteRule ^image-N.png$ image-345.php [NC]
+
+
