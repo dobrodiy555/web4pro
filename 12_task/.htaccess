@@ -1,5 +1,3 @@
 RewriteEngine On
-RewriteRule ^images/image-N.png$ images/image-123.php [NC]
-RewriteRule ^image-N.png$ image-345.php [NC]
-
-
+RewriteRule ^image-([0-9]+)\.png$ image.php?id=$1 [QSA] # передаст введенное польз-м число N в get параметр id вызываемой картинки
+RewriteRule ^final.html$ final.php [NC] # при открытии файла html запустится php
