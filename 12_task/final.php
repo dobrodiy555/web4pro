@@ -2,8 +2,8 @@
 $user_input_id = '';
 $error = '';
 if (isset($_GET['user_input_id'])) {
-    if (is_numeric($_GET['user_input_id'])) {  // проверка чтоб были только числа
-        $user_input_id = intval($_GET['user_input_id']); // если введена дробь, обрежет ее до целого
+    if (preg_match("/^\\d+$/" , $_GET['user_input_id'])) {  // проверка чтоб были только числа
+        $user_input_id = $_GET['user_input_id'];
     } else {
         $user_input_id = preg_replace( '/[^0-9]/', '', $user_input_id);  // если юзер вводит не цифры, то заменит на пустое
         $error = 'only single numbers allowed!'; // и покажет ошибку
