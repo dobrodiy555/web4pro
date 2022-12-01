@@ -67,7 +67,6 @@ function andrei_metabox_callback( $post ) {
 	</table>';
 }
 
-add_action( 'save_post', 'andrei_save_meta', 10, 2 );
 function andrei_save_meta( $post_id, $post ) {
 	if ( ! isset( $_POST[ '_andreinonce' ] ) || ! wp_verify_nonce( $_POST[ '_andreinonce'], 'somerandomstr' ) ) {
 		return $post_id;
@@ -82,9 +81,9 @@ function andrei_save_meta( $post_id, $post ) {
 		return $post_id;
 	}
 	// define your own post type here
-	if( 'page' !== $post->post_type ) {
-		return $post_id;
-	}
+//	if( 'page' !== $post->post_type ) {  из-за этого куска не сохраняло в бд
+//		return $post_id;
+//	}
 	if( isset( $_POST[ 'event_status' ] ) ) {
 		update_post_meta( $post_id, 'event_status', sanitize_text_field( $_POST[ 'event_status' ] ) );
 	} else {
@@ -97,6 +96,8 @@ function andrei_save_meta( $post_id, $post ) {
 	}
 	return $post_id;
 }
+
+add_action( 'save_post', 'andrei_save_meta', 10, 2 );
 
 /*
  * register metadata in wp_postmeta but still doesn't help
@@ -121,6 +122,7 @@ register_meta( 'post', 'event_date', [
 *  creating taxonomy 'birthdays'
 */
 add_action( 'init', 'true_register_taxonomy' );
+
 function true_register_taxonomy() {
 	$args = array(
 		'labels' => array(
@@ -148,29 +150,33 @@ class trueUpcomingEventsWidget extends WP_Widget {
 			array( 'description' => 'Позволяет вывести название предстоящих событий и их дату.' ) // описание
 		);
 	}
-	//	  фронтэнд виджета (то что должно появиться на странице в сайдбаре)
+
+    //	  фронтэнд виджета (то что должно появиться на странице в сайдбаре)
 	public function widget( $args, $instance ) {
 //		$title = apply_filters('widget_title', $instance['title']);
 		$number_of_events = $instance['number_of_events'];
         $status_of_events = $instance['status_of_events'];
-//        $date = '12.01.2022'; how to get value of event_date from metabox event_date ?
-        if ( ! empty ($status_of_events) )
+        if ( ! empty ( $status_of_events ) )
 	        echo $args['before_title'] . $status_of_events . $args['after_title'];
         $args = array(
                 'post_type' => 'events',
-                'posts_per_page' => $number_of_events,
-                'event_status' => $status_of_events,
-//                'event_date' => $date
+                'posts_per_page' => $number_of_events, // defines how many events it will show
+                'meta_query' => [ [
+                           'key' => 'event_status',
+                           'value' => $status_of_events,
+                ] ],
         );
 		$q = new WP_Query( $args );
 		if( $q->have_posts() ):
+			global $post;
 			?>
         <ul>
 			<?php
 			while( $q->have_posts() ):
 				$q->the_post();
-				?>
-                <li><a href="<?php the_permalink() ?>"><?php the_title() ?></a> </li>
+				$event_date = get_post_meta( $post->ID, 'event_date', true ); // узнаю дату из метаданных чтобы отобразить рядом с названием поста
+            ?>
+                <li><a href="<?php the_permalink() ?>"><?php the_title() ?></a> <span><?php echo $event_date;?></span></li>
 			<?php endwhile; ?>
         </ul>
 		<?php
@@ -179,9 +185,6 @@ class trueUpcomingEventsWidget extends WP_Widget {
 	}
 	 // бэкэнд виджета (то что видно в appearance->widgets)
 	public function form( $instance ) {
-//        if ( isset( $title[ 'title' ] ) ) {
-//            $title = $instance[ 'title' ];
-//        }
 		if ( isset( $instance[ 'number_of_events' ] ) ) {
 			$number_of_events = $instance[ 'number_of_events' ];
 		}
@@ -223,24 +226,27 @@ function show_upcoming_events( $atts ) {
     $a = shortcode_atts( array(
             'post_type' => 'events',
             'number_of_events' => 3,
+            'meta_value' => 'Open',
     ), $atts );
 	$q = new WP_Query( $a );
 	if( $q->have_posts() ):
-		ob_start();
+		ob_start(); // вкл буферизацию для корректного вывода html
 		?>
             <ul>
     			<?php
                 $i = 0; // счетчик
 			while( $q->have_posts() && ($i < $a['number_of_events']) ):
 				$q->the_post();
+                global $post;
+				$event_date = get_post_meta( $post->ID, 'event_date', true );
 				?>
-                    <li><a href="<?php the_permalink() ?>"><?php the_title() ?></a> </li>
+                    <li><a href="<?php the_permalink() ?>"><?php the_title() ?></a> <span><?php echo $event_date;?></span> </li>
     			<?php $i++;
                 endwhile; ?>
             </ul>
     	<?php
 	endif;
-    return ob_get_clean();
+    return ob_get_clean(); // получить из буфера
 }
 add_shortcode( 'upcoming_events', 'show_upcoming_events' );
 
