@@ -9,8 +9,9 @@ License:      GPL2
 
 include 'inc/class-events-widget.php';
 
-register_activation_hook( __FILE__, 'tp_activate' );
-add_action( 'init', 'tp_create_posttype');
+register_activation_hook( __FILE__, 'tp_plugin_activate' );
+register_deactivation_hook( __FILE__, 'tp_plugin_deactivate' );
+add_action( 'init', 'tp_create_post_type');
 add_action( 'admin_menu', 'tp_add_metabox' );
 add_action( 'save_post', 'tp_save_meta', 10, 2 );
 add_action( 'init', 'tp_register_taxonomy' );
@@ -19,7 +20,7 @@ add_shortcode( 'upcoming_events', 'tp_show_upcoming_events' );
 /*
 * creating post type 'events'
 */
-function tp_create_posttype() {
+function tp_create_post_type() {
 	register_post_type( 'events',
 		array(
 			'labels' => array(
@@ -37,11 +38,16 @@ function tp_create_posttype() {
 /**
  * Activate the plugin.
  */
-function tp_activate() {
+function tp_plugin_activate() {
 	// Trigger our function that registers the custom post type plugin.
 	tp_create_post_type();
 	// Clear the permalinks after the post type has been registered.
 	flush_rewrite_rules();
+}
+
+function tp_plugin_deactivate() {
+    unregister_post_type( 'events' );
+    flush_rewrite_rules();
 }
 
 /*
@@ -66,11 +72,11 @@ function tp_metabox_callback( $post ) {
 	<table class="form-table">
 	<tbody>
 		<tr>
-				<th><label for="event_status"> <?php _e("Event status");?> </label></th>
+				<th><label for="event_status"> <?php _e("Event status"); ?> </label></th>
 				<td>
 					<select id="event_status" name="event_status">
-						<option value="Open" <?php echo selected( 'Open',  $event_status, false ); ?> >Open</option>
-						<option value="Invitation only" <?php selected('Invitation only', $event_status, false ) ?> >Invitation only</option>
+						<option value="Open" <?php echo selected( 'Open',  $event_status, false ); ?> > <?php _e("Open"); ?> </option>
+						<option value="Invitation only" <?php selected('Invitation only', $event_status, false ) ?> > <?php _e("Invitation only"); ?> </option>
 					</select>
 				</td>
 			</tr>
@@ -115,7 +121,7 @@ function tp_save_meta( $post_id, $post ) {
 register_meta( 'post', 'event_status', [
 	'object_subtype' => 'events',
 	'type' => 'string',
-	'description' => __('статус события'),
+	'description' => __('event status'),
 	'single' => false, // can be many fields with such name
 	'show_in_rest' => true, // show data in REST requests
 ] );
@@ -123,7 +129,7 @@ register_meta( 'post', 'event_status', [
 register_meta( 'post', 'event_date', [
 	'object_subtype' => 'events',
 	'type' => 'string',
-	'description' => __('статус события'),
+	'description' => __('status event'),
 	'single' => false,
 	'show_in_rest' => true,
 ] );
@@ -167,7 +173,7 @@ function tp_show_upcoming_events( $atts ) {
                             'compare' => "="
                     ),
                    array(
-                           'key' => 'event_date',
+                            'key' => 'event_date',
                             'value' => $today,
                             'compare' => '>'
                    )

@@ -7,10 +7,10 @@ class EventsWidget extends WP_Widget {
 		parent::__construct(
 			'tp_upcoming_events_widget',
 			'Upcoming events', // widget name
-			array( 'description' => 'Allows display names of upcoming events and their date.' )
+			array( 'description' => __('Allows display names of upcoming events and their date.' ) )
 		);
 	}
-	//	  frontend of widget (in sidebar)
+	// frontend of widget (in sidebar)
 	public function widget( $args, $instance ) {
 		$number_of_events = $instance['number_of_events'];
 		$status_of_events = $instance['status_of_events'];
