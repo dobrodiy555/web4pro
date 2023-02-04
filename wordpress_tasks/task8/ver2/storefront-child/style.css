@@ -1,0 +1,31 @@
+/*
+Theme Name: Storefront Child
+Author: Andrei Miheev
+Template: storefront
+*/
+
+/*my pagination styles*/
+.t8-pagination {
+    text-align: center;
+}
+
+.t8-pagination .page-numbers {
+    width: 20px;
+    height: 10px;
+    border: solid darkgray 1px;
+    margin: 0px 10px;
+    padding: 5px 7px;
+    background-color: gainsboro;
+    font-size: small;
+}
+
+.t8-pagination .page-numbers:hover {
+    background-color: lightgrey;
+    font-weight: bold;
+}
+
+.t8-pagination .current {
+    background-color: lightblue;
+    font-weight: bold;
+}
+
