@@ -2,9 +2,8 @@
 
 require "Weather.php";
 $url = 'https://api.openweathermap.org/data/2.5/weather';
-//$example_url = 'https://api.openweathermap.org/data/2.5/weather?q=madrid&APPID=caee20174ec39f94071aff552d2a089d&units=metric';
 $city = '';
-$appid = 'caee20174ec39f94071aff552d2a089d';
+$appid = 'caee20174ec39f94071aff552d2b087c';
 $units = 'metric';
 
 if (isset($_GET['checkWeather'])) { // если нажали кнопку
